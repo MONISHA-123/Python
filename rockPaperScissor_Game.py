@@ -19,7 +19,7 @@ def Game():
     choice=""
     computerPoints,playerPoints=0,0
     roundCount=1
-    while(choice != 'q' and roundCount<=5):
+    while(choice != 'q' and roundCount<=10):
         print("\nROUND ",roundCount)
         choice=input("Pick any one in 'Rock/Paper/Scissor'  or 'Q' to quit - ").lower()
         if(choice != "q"):
